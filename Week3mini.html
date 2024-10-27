@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal Profile Page of Akansha">
+<title>Abhijeet Profile</title>
+<style>
+body {
+    font-family: 'Poppins', sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.6; margin: 0; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;
+    }
+    hr { width: 50%; margin: 20px auto; border-top: 1px solid #ccc;
+    }
+    h1, h2 { font-weight: 700;
+    }
+    p {
+    font-weight: 400; color: #333333; text-decoration: none;
+    }
+    a { font-weight: 400; color: #007bff; text-decoration: none;
+    }
+    a:hover { color: #0056b3;
+    }
+    .fas, .fab { margin-right: 1px; color: inherit;
+    }
+    .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; margin: 0 10px;
+    color: #fff;
+    font-size: 24px; transition: transform 0.3s ease;
+    }
+    .email-icon { background-color: #dd4b39;
+    }
+    .linkedin-icon { background-color: #0e76a8;
+    }
+    .icon-link:hover { transform: scale(1.1); color: #fff;
+    }
+    header, footer { background: linear-gradient(to right, #831bcd, #f9620b); color: #fff; padding: 40px 0; text-align: center; width: 100%;
+    }
+    section { padding: 20px; text-align: center; width: 80%; max-width: 800px;
+    }
+    img { width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 5px 15px rgba(0,0,0,0.2); object-fit: cover;
+    }
+    .skills-list { display: flex; flex-direction: row; justify-content: center; gap: 30px;
+    }
+    .skills-list li { list-style-type: none; background: #f0f2f5; padding: 10px 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); animation: bounce 1s infinite alternate; /* Apply bounce animation */
+    }
+    form { margin: 20px auto; padding: 20px; width: 100%; max-width: 500px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); background: #fff; box-sizing: border-box;
+    }
+    .form-group { display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 15px;
+    }
+    .form-group label { margin-bottom: 5px;
+    }
+    form input[type="text"], form input[type="email"], form textarea, form button { width: 90%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin: 5px 0; /* Ensures vertical spacing */
+    }
+    form button { background-image: linear-gradient(to right, #831bcd, #f9620b); color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 18px;
+    }
+    form button:hover { background-image: linear-gradient(to right, #f9620b, #831bcd);
+    }
+    @media only screen and (max-width: 768px) {
+    .skills-list {
+    flex-direction: column; /* Stacks skills vertically on smaller screens */
+    }
+    }
+    @media only screen and (max-width: 480px) { header, footer { padding: 15px; /* Adjusts padding for smaller screens */
+    }
+    section, form { width: calc(100% - 20px); /* Adjusts width to ensure spacing on very small screens */ margin: 10px auto;
+    }
+    .icon-link { width: 40px; height: 40px; margin: 0 5px; /* Adjusts icon size and spacing for smaller screens */
+    }
+    h1, h2 { font-size: 16px; /* Adjusts heading sizes for better readability on small devices */
+    }
+    }
+    @keyframes bounce { from {
+    transform: translateY(0);
+    }
+    to { transform: translateY(-10px);
+    }
+    }
+    .horizontal-scroll { overflow-x: hidden; /* Hide any overflowing content */ width: 100%; /* Occupy full width of the screen */
+    }
+    .icon-container { display: flex; /* Display icons in a row */ animation: scrollAnimation 10s linear infinite; /* Adjust animation duration as needed */ width: max-content; /* Make the container width fit its content */
+    }
+    .icon-container img { width: 60px; /* Adjust the width of icons as needed */ height: 60px; /* Adjust the height of icons as needed */ margin-right: 20px; /* Adjust margin between icons as needed */
+    }
+    @keyframes scrollAnimation {
+    0% {
+    transform: translateX(100vw); /* Start from the right edge of the viewport */
+    }
+    100% { transform: translateX(-100%); /* Move to the left edge */
+    }
+    } </style>
+    
+<link rel="icon" href="icon.ico" type="image/x-icon">
+<link rel="stylesheet" href="5_style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.1/css/all.min.css">
+<script src="5_script.js" defer></script>
+</head>
+<body>
+<header>
+<h1>Hey! This is Abhijeet <span class="about-me"></span></h1>
+<p> Hello! I'm Abhijeet Singh, currently pursuing my Master’s in Computer Applications (MCA) from KIET Group of Institutions. I completed my Bachelor's in Computer Applications (BCA) from MGKVP. I’m passionate about learning new technologies, developing innovative solutions, and am always excited to grow further in the field of technology.
+</p>
+</header>
+<section>
+<h2>About Me</h2>
+<p>Hello! I’m Abhijeet Singh, and here’s a little Info about Me.</p>
+</section>
+<hr>
+</section>
+<section class="horizontal-scroll">
+<div class="icon-container">
+<img src="icon/1.png" alt="Icon 1">
+<img src="icon/2.png" alt="Icon 2">
+<img src="icon/3.png" alt="Icon 3">
+<img src="icon/4.png" alt="Icon 4">
+<img src="icon/5.webp" alt="Icon 5">
+<img src="icon/6.webp" alt="Icon 6">
+<img src="icon/7.svg" alt="Icon 7">
+<img src="icon/8.png" alt="Icon 8">
+<img src="icon/9.webp" alt="Icon 9">
+<img src="icon/10.png" alt="Icon 10">
+</div>
+</section>
+<hr>
+<section>
+<h2>Portfolio</h2>
+<p>Take a look at some of my works.</p>
+<p><a href="main_2.html">Project 1</a> | <a href="main_2.html">Project 2</a></p>
+</section>
+<hr>
+<section>
+<h2>Contact Me</h2>
+<form>
+<div class="form-group">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Your Name">
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Your Email">
+</div>
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea id="message" name="message" placeholder="Your Message"></textarea>
+</div>
+<button type="submit">Send Message</button>
+</form>
+</section>
+<hr>
+<section>
+<h2>Contact Information</h2>
+<p>Let's connect!</p>
+<a href="mailto:tomarakansha007@gmail.com" class="icon-link email-icon"><i class="fas faenvelope"></i></a>
+<a href="https://www.linkedin.com/in/akansha-tomar-
+425ba526a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=an droid_app" class="icon-link linkedin-icon">
+<i class="fab fa-linkedin"></i></a><br><br><br>
+</section>
+<footer>
+<p>&copy; 2024 Abhijeet </p>
+</footer>
+</body>
+</html>
+
